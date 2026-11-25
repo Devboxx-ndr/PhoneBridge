@@ -1,0 +1,15 @@
+*.apk
+*.aab
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.key
+.env*
+local.properties
+app/
+tools/
+build/
+.gradle/
+.idea/
+*.log

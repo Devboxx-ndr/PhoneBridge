@@ -1,0 +1,20 @@
+name: Bug report
+description: Report a reproducible PhoneBridge issue
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Public report: remove real SMS, phone numbers, QR links, credentials, keys and personal files."
+  - type: textarea
+    id: environment
+    attributes:
+      label: Version and environment
+      description: App, Android, iOS and browser versions; Wi-Fi or hotspot type. No serial numbers.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps, expected result and actual result
+    validations:
+      required: true
